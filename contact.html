@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="style/style.css">
-
+    <link rel="short icon" href="img/logo.png" />
     <style>
       
 
@@ -70,13 +70,14 @@
 
 .contact-item-icon {
   background:  #f5f3fe;
-  width: 53px;
-  height: 53px;
+  width: 53px; /* Sets the width of the element */
+  height: 53px; /* Sets the height of the element */
   border-radius: 9px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 
 .contact-item-icon svg {
   fill:  #191626;
@@ -99,7 +100,6 @@
           <nav>
             <ul>
               <li><a href="index.html"> Home</a></li>
-              <li><a href="#portfolios">Portfolio</a></li>
               <li><a href="serti.html">Certificate</a></li>
               <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -144,36 +144,36 @@
             </div>
           </form>
         </div>
+
       <div class="contact-right">
+  <input type="password" placeholder="Password" name="password" required style="width: 100%; padding: 0.75rem 1.3rem;  margin-bottom: 1.4rem;" />
+  
 
-<div style="margin-bottom: 1.4rem;">
-  <input type="password" placeholder="Password" name="password" required style="width: 100%; padding: 0.75rem 1.3rem; " />
-</div>
-
-<div style="margin-bottom: 1.4rem;">
-  <select name="gender" id="gender" required style="width: 100%; padding: 0.75rem 1.3rem; ">
+  <select name="gender" id="gender" required style="width: 100%; padding: 0.75rem 1.3rem; margin-bottom: 1.4rem; ">
     <option value="">Select Gender</option>
     <option value="male">Male</option>
     <option value="female">Female</option>
     <option value="other">Other</option>
   </select>
-</div>
+
 <div style="margin-bottom: 1.4rem;">
   <h4 style="margin-bottom: 5px;">Preferred Contact Method :</h4>
-  <div  style="margin-top: 2rem;">
-    <input type="radio" id="contact-email" name="contact-method" value="email" required style="transform: scale(1.5);" />
+  <div>
+
+    <input type="radio" id="contact-email" name="contact-method" value="email" required style="transform: scale(1.5);margin-top: 2rem;" />
     <label for="contact-email" style="margin-left: 5px;">Email</label>
   </div>
-  <div  style="margin-top: 2rem;">
-    <input type="radio" id="contact-phone" name="contact-method" value="phone" required style="transform: scale(1.5);" />
-    <label for="contact-phone" style="margin-left: 5px;">Phone</label>
-  </div>
-  <div  style="margin-top: 2rem;">
-    <input type="checkbox" id="subscribe" name="subscribe" required style="transform: scale(1.5);" />
-    <label for="subscribe" style="margin-left: 5px;">Subscribe to newsletter</label>
-  </div>
+<div>
+
+  <input type="radio" id="contact-phone" name="contact-method" value="phone" required style="transform: scale(1.5); margin-top: 2rem;" />
+  <label for="contact-phone" style="margin-left: 5px;">Phone</label>
+</div>
+
+
+    <input type="checkbox" id="subscribe" name="subscribe" required style="transform: scale(1.5); margin-top: 2rem;" />
+    <label for="subscribe" style="margin-left: 5px;">Get in Touch with My Work</label>
 </div> 
-        </div>
+ </div>
       </div>
 
       <div class="contact-items-container" style="display: flex; gap: 13rem;">

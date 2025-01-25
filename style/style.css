@@ -48,7 +48,6 @@ a {
   margin: 0 auto;
 }
 
-
 /* Titles */
 .section-title {
   margin: 1rem 0 4rem;
@@ -58,7 +57,7 @@ a {
 .pre-title {
   text-transform: uppercase;
   letter-spacing: 0.5rem;
-  color:  #656d72;
+  color:  #9d9d9d;
   position: relative;
   padding-left: 40px;
   width: fit-content;
@@ -73,9 +72,10 @@ a {
   background: #d9d9d9;
   position: absolute;
   display: block;
-  left: 0;
-  top: 50%;
+  left: 0; /* Menempatkan garis di sisi kiri */
+  top: 50%; /* Menengahkan secara vertikal */
 }
+
 
 /* Layouts */
 .grid-3 {
@@ -210,7 +210,7 @@ nav ul li a:hover {
 .service {
   padding: 3rem 2rem;
   text-align: center;
-  background: #fbfbfb;
+  background: #f5f3fe;
   border-radius:0.7rem;
 }
 
